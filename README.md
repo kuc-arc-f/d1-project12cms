@@ -6,7 +6,7 @@
 
  date    : 2023/09/26
 
- update  : 2023/09/26
+ update  : 2023/09/26 
 
 ***
 ### Summary
@@ -16,6 +16,11 @@ cloudflare D1 + workers, cms API sample
 ***
 * wrangler.toml
 ```
+name = "d1-project12ms"
+main = "src/index.ts"
+compatibility_date = "2023-08-09"
+node_compat = true
+
 [vars]
 API_KEY = "123"
 
